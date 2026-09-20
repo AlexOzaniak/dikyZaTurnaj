@@ -1,0 +1,53 @@
+body{
+    background-color: #F9F8EE; 
+}
+
+#UPimage{
+    width: 400px;
+    height: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) minmax(300px, 3fr) minmax(250px, 400px);
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+#sidebar{
+    border: 1px solid black;
+    min-height: 500px;
+        background-color: #D5D887;
+
+}
+
+#MainContent{
+    border: 1px solid black;
+    min-height: 500px;
+}
+
+#SideImage{
+    border: 1px solid black;
+    min-height: 500px;
+}
+
+#sidebar-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.text{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-right: 24px;
+}
+
+.main-text{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-right: 24px;
+}

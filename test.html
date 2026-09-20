@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="container">
+
+  <!-- Karta 1 -->
+  <div class="card">
+    <img src="tenisky.jpg" alt="Tenisky">
+    <h3>Bežecké tenisky</h3>
+    <p>Cena: 89 €</p>
+    <button>Kúpiť</button>
+  </div>
+
+  <!-- Karta 2 -->
+  <div class="card">
+    <img src="tricko.jpg" alt="Tričko">
+    <h3>Bavlnené tričko</h3>
+    <p>Cena: 19 €</p>
+    <button>Kúpiť</button>
+  </div>
+
+  <!-- Karta 3 -->
+  <div class="card">
+    <img src="batoh.jpg" alt="Ruksak">
+    <h3>Mestský ruksak</h3>
+    <p>Cena: 45 €</p>
+    <button>Kúpiť</button>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+<style>
+    /* 1. Nastavenie mriežky pre rodičovský obal */
+.container {
+  display: grid;
+  /* Vytvorí 3 rovnako široké stĺpce */
+  grid-template-columns: repeat(3, 1fr); 
+  /* Medzera medzi kartami */
+  gap: 20px; 
+  padding: 20px;
+}
+
+/* 2. Základný dizajn pre jednotlivé položky (voliteľné, iba pre vzhľad) */
+.card {
+  background-color: #f0f4f8;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
