@@ -10,26 +10,44 @@ body{
 .container{
     display: grid;
     grid-template-columns: minmax(200px, 1fr) minmax(300px, 3fr) minmax(250px, 400px);
-    gap: 10px;
+    gap: 8px;
     padding: 10px;
     
 }
 
 #sidebar{
-    border: 1px solid black;
+    border: 1px ;
     min-height: 500px;
         background-color: #D5D887;
+        border-radius: 20px;
 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+#sidebar:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #MainContent{
-    border: 1px solid black;
+    border: 1px ;
     min-height: 500px;
+    background-color: #A1CF6B;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+#MainContent:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #SideImage{
-    border: 1px solid black;
+    border: 1px ;
     min-height: 500px;
+    background-color: #A1CF6B;
+    border-radius: 20px;
 }
 
 #sidebar-title{
@@ -46,8 +64,16 @@ body{
 }
 
 .main-text{
-    text-align: center;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     margin-right: 24px;
+}
+#image{
+    width: 400px;
+    height: 520px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
 }
